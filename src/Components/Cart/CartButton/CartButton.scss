@@ -1,0 +1,22 @@
+@use "../../../Assets/GlobalStyles/Mixin.scss";
+.cart-button {
+  margin-inline-end: 48px;
+  padding: 0 0.8px;
+  position: relative;
+  &__count {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: -14px;
+    right: -24px;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 12px;
+    @include Mixin.cc-border(1px);
+    border-radius: 50%;
+  }
+}

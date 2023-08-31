@@ -1,0 +1,19 @@
+.show-results {
+  background: #b6d7b370;
+  background: radial-gradient(
+    circle,
+    #0d91010e 0%,
+    #ffffff00 100%
+  );
+  width: 100%;
+  height: calc(100vh - 140px);
+  position: relative;
+  &__back {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+  }
+}

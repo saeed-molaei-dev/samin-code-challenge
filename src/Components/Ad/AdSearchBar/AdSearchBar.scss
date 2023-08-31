@@ -1,0 +1,10 @@
+.search-box {
+  width: 100%;
+  height: fit-content;
+  padding-block: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  &__input {
+    border: 1px solid #eee;
+  }
+}

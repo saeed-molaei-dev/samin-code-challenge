@@ -1,0 +1,49 @@
+@import "../../Assets/GlobalStyles/Variable.scss";
+//for react-icon
+.icon-style {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:first-child {
+    padding-block: 1px;
+  }
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: normal;
+}
+input {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+button {
+  margin: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

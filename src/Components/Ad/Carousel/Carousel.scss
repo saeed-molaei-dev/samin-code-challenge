@@ -1,0 +1,12 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+.be-carousel {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  .image-gallery-image {
+    height: 300px;
+    img {
+      height: 100%;
+    }
+  }
+}

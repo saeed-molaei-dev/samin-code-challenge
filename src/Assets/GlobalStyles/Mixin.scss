@@ -1,0 +1,21 @@
+@mixin cc-button() {
+  width: 132px;
+  background-color: #e8fde8;
+  height: 32px;
+  padding: 0 18px;
+  @include cc-border(1px);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background-color: lightgray;
+  }
+  &--disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+@mixin cc-border($border-width) {
+  border: $border-width solid #999;
+}

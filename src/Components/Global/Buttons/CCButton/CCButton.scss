@@ -1,0 +1,4 @@
+@use "../../../../Assets/GlobalStyles/Mixin.scss";
+.cc-button {
+  @include Mixin.cc-button();
+}

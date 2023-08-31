@@ -1,0 +1,55 @@
+.cc-ad-card {
+  width: calc(25% - 12px);
+  min-width: 250px;
+  height: fit-content;
+  border: 1px solid lightgray;
+  padding: 16px;
+  &__image-holder {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 100%;
+      max-width: 100%;
+    }
+  }
+  &__title,
+  &__sub-title {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+    text-align: center;
+  }
+  &__title {
+    direction: ltr;
+    font-weight: 700;
+    margin-top: 16px;
+  }
+  &__sub-title {
+    margin-block: 16px;
+    font-weight: 700;
+  }
+  &__footer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      border: none;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+      color: black;
+      display: flex;
+    }
+  }
+  &:hover {
+    box-shadow: 0 0 10px 0 gray;
+  }
+}
